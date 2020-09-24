@@ -20,13 +20,10 @@ namespace TP2
 
             decimal porcentajeDefensa= (decimal)rnd.NextDouble();
 
-            Villano thanos = new Villano(poderAtaqueVillano,hitRatioVillano);
+            Villano X = new Villano(poderAtaqueVillano,hitRatioVillano);
 
             
-            //IronMan
-            Superpoder Misil_laser = new Superpoder(true);
-            IronMan ironMan = new IronMan(Misil_laser,poderAtaqueSuperHeroe,hitRatioSuperHeroe,porcentajeDefensa);
-
+            
                
         }
     }
